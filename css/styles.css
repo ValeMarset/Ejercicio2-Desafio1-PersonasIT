@@ -1,0 +1,148 @@
+body {
+  color: black;
+}
+
+/* Variables */
+
+:root {
+  --color-primario: #7862a6;
+}
+
+/* Menú de navegación */
+
+.bg-primario {
+  background-color: var(--color-primario);
+}
+
+nav {
+  height: 65px;
+}
+
+/* Header */
+
+.fondo-color-header {
+  background-image: url("../img/fondoHeader.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 77vh;
+  margin-top: 65px;
+  position: relative;
+}
+
+.figuras-header {
+  background-image: url("../img/figuras.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin-top: 65px;
+  position: absolute;
+  left: 0;
+  top: -40px;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 51% 96%, 0 100%);
+}
+
+header > div > h1 {
+  bottom: 40%;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5em;
+}
+
+/* Main */
+
+.img-main {
+  width: 100%;
+}
+
+.style-subtitulo {
+  color: var(--color-primario);
+  font-family: "Poppins", sans-serif;
+  line-height: 1.8em;
+}
+
+.style-parrafo {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+}
+
+/* Article */
+
+.titulo-article {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-article {
+  background-color: #f8ca93;
+}
+
+.btn-article {
+  border: solid 2px black;
+}
+
+.btn-article:hover {
+  background-color: #f9d5a9;
+  border: solid 2px #f9d5a9;
+  border-color: #f9d5a9;
+}
+
+article {
+  font-family: "Lato", sans-serif;
+}
+/* Footer */
+
+footer {
+  height: 100px;
+}
+.bg-footer {
+  background-color: var(--color-primario);
+}
+
+/* MediaQueries */
+
+@media screen and (min-width: 720px) {
+  /* Header */
+
+  .figuras-header {
+    top: -45px;
+    clip-path: polygon(
+      100% 49%,
+      92% 60%,
+      120% 60%,
+      164% 51%,
+      60% 81%,
+      23% 85%,
+      0 85%,
+      0 0,
+      100% 0
+    );
+  }
+
+  header > div > h1 {
+    bottom: 40%;
+    font-size: 4em;
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  /* Header */
+
+  .figuras-header {
+    top: -45px;
+    clip-path: polygon(
+      100% 49%,
+      92% 60%,
+      120% 60%,
+      164% -10%,
+      60% 79%,
+      22% 81%,
+      0 82%,
+      0 0,
+      100% 1%
+    );
+  }
+  header > div > h1 {
+    bottom: 45%;
+    font-size: 5em;
+  }
+}

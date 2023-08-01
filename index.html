@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafío 1</title>
+    <link rel="icon" href="./img/favicon.png" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!-- Css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@400;500;600;700&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-primario z-1 fixed-top shadow">
+        <div class="container p-0">
+          <a class="navbar-brand text-white fw-bold ms-3" href="/"
+            >MUJERES IT</a
+          >
+          <button
+            class="navbar-toggler me-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse bg-primario w-100"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav w-100 d-flex justify-content-end ms-3">
+              <li class="nav-item me-4">
+                <a class="nav-link fw-bold text-white" href="/">Home</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link fw-bold text-white" href="/">Equipos</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link fw-bold text-white" href="/">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-white" href="/">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="fondo-color-header"></div>
+      <div class="figuras-header"></div>
+      <div class="container d-flex justify-content-center">
+        <h1 class="position-absolute text-white text-center fw-bold">
+          Hablemos sobre Género <br />
+          y Tecnología
+        </h1>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="row my-5 py-5 g-0 gx-lg-5">
+        <div class="col-lg-6 col-12 order-lg-2">
+          <div>
+            <h2 class="style-subtitulo h4 mb-4 fw-bold">
+              Información sobre la realidad de la brecha de género en IT
+            </h2>
+            <p class="pe-lg-5 lh-lg mb-5 style-parrafo fw-bold mb-lg-0">
+              En esta charla presentamos información sobre la realidad, cuál es
+              la presencia femenina en el rubro IT, en qué áreas técnicas nos
+              desempeñamos, presentamos la brecha de género visible no solo en
+              el mercado local sino internacional. <br />
+              Luego, pasamos a hablar de sesgos y el impacto que tienen en la
+              tecnología que construímos, que por supuesto afecta a la sociedad
+              toda.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12 order-lg-1">
+          <img
+            src="./img/animacion.jpg"
+            alt="animación"
+            class="img-main mb-5 rounded-4"
+          />
+        </div>
+        <div class="col-lg-6 col-12 order-lg-3">
+          <div class="mt-4">
+            <h2 class="style-subtitulo h4 mb-4 fw-bold">Accionables</h2>
+            <p class="pe-lg-5 lh-lg style-parrafo fw-bold mb-5 mb-lg-0">
+              Finalmente, dejamos una serie de propuestas, porque entendemos que
+              solamente señalar un problema no construye y estamos para
+              construir en comunidad, le llamamos <br />
+              «Guía de consejos», revelamos qué podemos hacer para trabajar
+              sobre estos sesgos y construir tecnología que nos incluya a todas
+              y a todos.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12 order-lg-4">
+          <img src="./img/personas.png" alt="personas" class="mt-4 img-main" />
+        </div>
+      </div>
+    </main>
+
+    <article class="container my-5 py-5">
+      <div class="bg-article text-center p-4 rounded-3 mb-5 py-5">
+        <h2 class="titulo-article h3 fw-bold mb-4 mb-lg-2">
+          Inscribite a las charlas
+        </h2>
+        <p class="fw-bold mb-4 mb-lg-3 px-2 px-lg-0">
+          Las charlas no tienen costo pero sí cupos limiados. Inscribite a la
+          próxima a través del siguiente link
+        </p>
+        <a href="#" class="text-decoration-none btn btn-article rounded-3"
+          ><span class="h5 fw-bold d-flex py-1 px-2"
+            >Quiero inscribirme</span
+          ></a
+        >
+      </div>
+    </article>
+
+    <footer class="bg-footer d-flex align-items-center">
+      <div class="container">
+        <small class="text-white fw-lighter"
+          >© Mujeres IT copyright 2022. Todos los derechos reservados</small
+        >
+      </div>
+    </footer>
+
+    <!-- Bootstrap Js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
