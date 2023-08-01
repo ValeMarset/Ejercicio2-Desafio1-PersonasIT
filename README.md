@@ -17,3 +17,5 @@ Comentarios:
 -Para la planificación y organización de todos los desafíos, utilice Notion, adjunto el link : https://www.notion.so/Desafios-Personas-IT-13dcb2eff75441048bfad0463a8055d6?pvs=4
 
 -Realicé el deploy de este ejercicio en Vercel, link: https://personas-it-desafio1-nqbq.vercel.app/
+
+-Quiero aclarar que el diseño del header me presentó diversos desafíos debido a la superposición de imágenes. Investigé bastante e intenté usar diferentes herramientas para llegar a la solución más óptima que es esta final. Soy consciente de que no logré resolverlo al cien por ciento, ya que tiene varios detalles para arreglar.
