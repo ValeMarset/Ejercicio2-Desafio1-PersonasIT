@@ -14,7 +14,7 @@ Comentarios:
 
 -Generador de clip-path: https://bennettfeely.com/clippy/ : Use esta herramienta para el header, para hacer un recorte de la imágen de las figuras, para que no desbordara la imágen violeta de fondo.
 
--Para la planificación y organización de todos los desafíos, utilice Notion, adjunto el link : https://www.notion.so/Desafios-Personas-IT-13dcb2eff75441048bfad0463a8055d6?pvs=4
+-Para la planificación y organización de todos los desafíos, utilice Notion, adjunto el link : https://far-bicycle-bac.notion.site/Desafios-Personas-IT-13dcb2eff75441048bfad0463a8055d6
 
 -Realicé el deploy de este ejercicio en Vercel, link: https://personas-it-desafio1-nqbq.vercel.app/
 
